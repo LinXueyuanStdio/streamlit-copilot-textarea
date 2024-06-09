@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { StreamlitProvider } from "streamlit-component-lib-react-hooks";
-import StreamlitDiffViewer from "@/components/streamlit-diff-viewer";
+import StreamlitDiffViewer from "@/components/streamlit-copilot-textarea";
 
 const Home: NextPage = () => {
   return (

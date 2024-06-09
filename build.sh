@@ -3,7 +3,7 @@
 set -e
 
 # Build Frontend
-cd st_diff_viewer/frontend || exit
+cd streamlit_copilot_textarea/frontend || exit
 yarn install
 yarn run build
 

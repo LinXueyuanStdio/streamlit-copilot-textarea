@@ -12,7 +12,7 @@ pip install st-diff-viewer
 ## Usage
 
 ```python
-from st_diff_viewer import diff_viewer
+from streamlit_copilot_textarea import diff_viewer
 
 old_text = "a = 0"
 new_text = "a = 1"

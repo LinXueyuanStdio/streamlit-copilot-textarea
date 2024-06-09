@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/component/st_diff_viewer.st_diff_viewer",
+  basePath: "/component/streamlit_copilot_textarea.streamlit_copilot_textarea",
   reactStrictMode: true,
   swcMinify: true,
   images: {
