@@ -59,6 +59,11 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
 
+test your copilot api
+
+```sh
+curl -X POST "http://localhost:8000/generate" -H "Content-Type: application/json" -d '{"prompt": "please complete the text: Human and AI", "temperature": 0.5, "max_tokens": 10}'
+```
 
 ## Buiding from source
 
