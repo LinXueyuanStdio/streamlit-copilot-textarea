@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "st-diff-viewer"
-version = "1.0.2"
-description = "A Streamlit component to display diff betoween two strings"
+name = "streamlit-copilot-textarea"
+version = "1.0.0"
+description = "a drop-in replacement for the standard streamlit textarea, offering enhanced autocomplete features powered by AI."
 authors = ["Xueyuan Lin <linxy59@mail2.sysu.eud.cn>"]
 readme = "README.md"
 packages = [{ include = "streamlit_copilot_textarea"}]
@@ -10,7 +10,7 @@ license = "MIT"
 
 # Only include the out directory of the frontend
 # The order of the include/exclude lists is important!
-include = ["streamlit_copilot_textarea/frontend/out/**", "docs/**"]
+include = ["streamlit_copilot_textarea/frontend/build/**", "docs/**"]
 exclude = ["streamlit_copilot_textarea/frontend/*"]
 
 [tool.poetry.dependencies]
